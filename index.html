@@ -1,0 +1,88 @@
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>首页|叠纸游戏简介 paper games</title>
+		<meta property="og:title" content="首页|叠纸游戏简介 paper games"/>
+		<meta name="description" content="叠纸游戏是一家专注互动娱乐领域的新型互联网文化公司。公司以移动端女性游戏起步，主要产品有：《暖暖换装物语》、《暖暖环游世界》、《奇迹暖暖》、《恋与制作人》。以及已公开但未上市的《逆光潜入》《百面千相》《无限暖暖》"/>
+		<meta property="og:description" content="叠纸游戏是一家专注互动娱乐领域的新型互联网文化公司。公司以移动端女性游戏起步，主要产品有：《暖暖换装物语》、《暖暖环游世界》、《奇迹暖暖》、《恋与制作人》。以及已公开但未上市的《逆光潜入》《百面千相》《无限暖暖》"/>
+		<link rel="stylesheet" type="text/css" href="css/1.css"/>
+		<script type="text/javascript" src="js/jquery-3.6.1.js"></script>
+		
+	</head>
+	<body>
+		
+		<div id="codefans_net" style="position:absolute">
+			
+		<a  target="_blank"> 
+		
+			<img src="img/Nikki.jpg" border="0" width="200"> 
+		</a> 
+		</div> 
+		
+			<!--网页上部分-->
+			<div id="header">
+				<h1>叠纸游戏</h1>
+			
+			</div>
+			<div id="header-font">
+				<h3>
+				<a href="index.html">中文</a>|<a href="./File/en.html">EN</a>|<a href="./File/JP.html">JP</a>
+				</h3>
+			</div>
+			<div class="clear"></div>
+			</div>
+			<!--网页中间部分-->
+			
+			<div id="content">
+			
+			  <img src="./img/paper.png" width="1000" height="600" alt="planets" usemap="#planetmap">
+			<map name="planetmap">
+				<area shape="rect" coords="125,120,250,420" href="index.html" alt="zhuye"/>
+				<area shape="rect" coords="280,85,405,400" href="./File/contact.html" alt="game"/>
+				<area shape="rect" coords="440,130,555,440" href="./File/contact.html" alt="product"/>
+				<area shape="rect" coords="585,85,710,400" href="./File/contact.html" alt="join"/>
+				<!--
+				<area shape="rect" coords="440,130,555,440" href="./File/product.html" alt="product"/>
+				<area shape="rect" coords="585,85,710,400" href="./File/yonghui.html" alt="join"/>
+				-->
+				<area shape="rect" coords="740,120,865,420" href="./File/contact.html" alt="contact"/>
+			</map>
+				<audio src="./audio/闪耀暖暖 - 回忆.mp3" type="audio/mpeg" autoplay="autoplay" loop="loop" preload="auto"></audio>
+			
+			</div>
+			<!--网站下部分-->
+			<div id="footer">
+			  <p>健康游戏忠告:<br>
+			  抵制不良游戏，拒绝盗版游戏。
+			    注意自我保护，谨防受骗上当。<br>
+			    适度游戏益脑，沉迷游戏伤身。
+			     合理安排时间，享受健康生活。<br>
+			适龄提醒：适合12岁及以上使用<br>
+		制作者：强海燕 软件1211 112104550504 QQ：2363287748 手机号：18724049565</p>
+			</div>
+	<script>
+		var x = 50,y = 60 
+		var xin = true, yin = true 
+		var step = 1 
+		var delay = 10 
+		var obj=document.getElementById("codefans_net") 
+		function float() { 
+		var L=T=0 
+		var R= document.body.clientWidth-obj.offsetWidth 
+		var B = document.body.clientHeight-obj.offsetHeight 
+		obj.style.left = x + document.body.scrollLeft 
+		obj.style.top = y + document.body.scrollTop 
+		x = x + step*(xin?1:-1) 
+		if (x < L) { xin = true; x = L} 
+		if (x > R){ xin = false; x = R} 
+		y = y + step*(yin?1:-1) 
+		if (y < T) { yin = true; y = T } 
+		if (y > B) { yin = false; y = B } 
+		} 
+		var itl= setInterval("float()", delay) 
+		obj.onmouseover=function(){clearInterval(itl)} 
+		obj.onmouseout=function(){itl=setInterval("float()", delay)} 
+	</script>  		
+	</body>
+</html>
