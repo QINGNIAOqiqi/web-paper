@@ -1,0 +1,13 @@
+#ground{
+	background-image: url(../img/synn.jpg);
+	background-repeat: no-repeat ,no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+img{
+	max-width: 50%;
+	max-height: 50%;
+	width: 50%;
+	height: 50%;
+	float: center;
+}

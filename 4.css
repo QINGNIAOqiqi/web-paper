@@ -1,0 +1,60 @@
+#navigation{
+				font-size: 30px;
+				font-family: arial;
+				float: left;
+				
+			}
+			#navigation ul{
+				list-style-type: none;
+				margin: 0px;
+				padding: 0px;
+				overflow: auto;
+			}
+			#navigation li{
+				background;: :#000000;
+				float: left;
+				
+			}
+			#navigation li a{
+				display: block;
+				color: #000000;
+				padding: 15px;
+				text-decoration: none;
+			
+			}
+			#navigation li a:visited{
+				background-color: #ff6969;
+				color:#ff6969;
+				/*1 2级菜单字体颜色*/
+			}
+			#navigation li a:hover{
+				background-color: #000000;
+				color: #000000;
+			}
+			#navigation li ul{
+				display: none;
+				border: 1px solid #ff6969;
+				/*下拉菜单的细边*/
+			}
+			#navigation li ul li{
+				float: none;
+				background: #ef8c8c;
+				border-bottom: 1px solid #ff6f71;
+				/*下拉菜单的细边*/
+			}
+			#navigation li:hover ul{
+				/*1*/
+				display:block;
+			}
+			#navigation li ul li a:hover{
+				/*2*/
+				background-color:#ff6969;
+				color:#ff6969;
+			}
+			.image{
+				float: left;
+			}
+			.clear{
+				clear:both;
+			}
+		

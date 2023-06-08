@@ -1,0 +1,167 @@
+span{
+	font-size: 80px;
+	font-family: arial;
+}
+.pink{color: #ff4b3e;}
+<!--渐变-->
+#grad {
+    background-image: linear-gradient(#f36846, #ffffff);
+}
+body{
+	background-color: #ffcdce;
+	
+}
+#header{
+	float: left;
+	height: 50px;
+	width: 100%;
+	padding-top: 30px;
+	text-align: center;
+	color: #ff557f;
+}
+#header-font{
+	font-size: 15px;
+	height: 0%;
+	width: 60%;
+	float: right;
+	padding-top: 30px;
+	text-align: center;
+}
+#header-font span{
+	color:black;
+	padding-top: 30px;
+}
+#footer{
+	height: 200px;
+	width: 100%;
+	bottom: 20%;
+	text-align: center;
+	color: black;
+	background-color:snow;
+}
+#footer p{
+	padding-top: 20px;
+}
+.clear{
+	clear:both;
+}
+#content{
+	height: 700px;
+	width: 100%;
+	margin-top: 5px;
+	text-align: center;
+}
+#content-img{
+	
+	margin: auto;
+	text-align: center;
+}
+#sidebar{
+	width: 50px;
+}
+div{
+	width: 30px;
+
+	padding: 10px;
+	
+	margin: auto 5px;
+	float: none;
+}
+
+			
+			/*******广告 漂浮**********/
+			
+			.guanggao-head
+			{
+			    position:relative;
+			    bottom:0px;
+			    height:25px;
+			    line-height:25px;
+			    vertical-align:middle;
+			   
+			    font-size:15px;
+			    font-family:@宋体;
+			    font-weight:normal;
+			    padding-left:5px;
+			    color:#a8c9ea;
+			}
+			#closepiaofu
+			{
+			    position:absolute;
+			    width:40px;
+			    top:0px;
+			    right:1px;
+			    text-align:center;
+			    font-size:12px;
+			    font-family:@宋体;
+			    font-weight:normal;
+			    color:#fff;
+			    cursor:pointer;
+			}
+			#guanggao-content-list
+			{
+			    position:relative;
+			    width:220px;
+			    height:220px;
+			    background:#fff;
+			}
+			.more-guanggao-div
+			{
+			    background:#fff;
+			}
+			#more-guanggao
+			{
+			    margin-left:170px;
+			    font-size:12px;
+			}
+			#more-guanggao a
+			{
+			    color:#8ba1aa;
+			}
+			#cldFrame{
+			    position: relative;
+			    width: 1024px;
+			    margin: 50px auto;
+			}
+			#cldBody{
+			    margin: 10px;
+			    position: absolute;
+			    width: 420px;
+			}
+			#top{
+			    position: relative;
+			    height: 60px;
+			    text-align: center;
+			    line-height: 60px;
+			}
+			#topDate{
+			    font-size: 30px;
+			}
+			.curDate{
+			    color: red;
+			    font-weight: bold;
+			}
+			table{
+			    /* background-color: #f7f7f7; */
+				border: gainsboro 1px solid;
+			}
+			#week td{
+			    font-size: 15px;
+			}
+			td{
+			    height: 60px;
+			    width: 60px;
+			    text-align: center;
+			    font-family: Simsun;
+			    font-size: 20px;
+			}
+			#left, #right{
+			    position: absolute;
+			    width: 60px;
+			    height: 60px;
+			}
+			#left{left: 0px;}
+			#right{right: 0px;}
+			#left:hover, #right:hover{
+			    background-color: rgba(30, 30, 30, 0.2);
+			}
